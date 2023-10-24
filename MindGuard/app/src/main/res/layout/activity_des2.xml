@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Des2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="I already have an account, "
+        android:textColor="#16161640"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="#0F62FE"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="685dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0F62FE"
+        android:text="Let's get started! "
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="64dp"
+        android:layout_height="28dp"
+        android:text="Welcome"
+        android:textColor="#525252"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Base.CardView"
+        android:layout_width="322dp"
+        android:layout_height="59dp"
+        android:text="Your personalised
+Alzheimer's Detection and Memory Aid App"
+        android:textColor="#525252"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+
+
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="393dp"
+        android:layout_height="79dp"
+
+        android:text="We're here to support you in managing your daily routines, medication schedule, appointments, and memory enhancement activities."
+        android:textColor="#6F6F6F"
+        android:lineHeight="18sp"
+        android:textAlignment="center"
+
+
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="397dp"
+        android:layout_height="292dp"
+        android:src="@drawable/wel"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
