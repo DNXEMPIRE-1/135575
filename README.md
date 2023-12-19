@@ -19,7 +19,3 @@ Welcome to MindGuard! This ongoing project is a mobile app designed for the dete
   - Implement alerts for users and caregivers based on detected patterns or irregularities.
 
 ## Current Progress
-
-- [Briefly describe the current state of MindGuard]
-- [Mention any key features that have been implemented]
-- [Outline upcoming features or improvements]
